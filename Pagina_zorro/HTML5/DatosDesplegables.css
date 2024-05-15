@@ -1,0 +1,45 @@
+head {
+    font-family: Arial, sans-serif;
+}
+
+.Navegador {
+    background-color: #da1c1c;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    float: left;
+    padding: 14px 20px;
+    color: rgb(181, 209, 53);
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-item:hover {
+    background-color: #575757;
+}
+
+.Miembros {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 180px;
+    z-index: 1;
+}
+
+.Miembros {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Miembros:hover {
+    background-color: #575757;
+}

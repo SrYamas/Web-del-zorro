@@ -5,18 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bienvenido a nuestro estudio de animación y diseño!">
     <title>Estudio Zorruno</title>
-    <link rel="stylesheet" href="Recursos.css">
+    <link rel="stylesheet" href="DatosDesplegables.css">
     <link rel="shortcut icon" href="zorro.png">
+    <link rel="stylesheet" href="Awuita.css">
 </head>
 <body>
+    <div class="container" onclick="createDrop(event)"></div>
+    <script src="Awuita.js"></script>
     <!--Esto es un comentario-->
     <h1>Hola! Bienvenido a Estudio Zorruno!</h1>
     <header> <img src="recursos/logo.jpg" alt=""> </header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="QuienesSomos.html">¿Quienes somos?</a>
-        <a href="Servicios.html">Servicios</a>
-        <a href="Contactos.html">Contactos</a>
+    <nav class="Navegador">
+        <ul>
+            <a href="#">Inicio</a>            
+            <a href="QuienesSomos.html">¿Quienes somos?</a>
+             <ul class="Miembros">
+                <a href="Sociandia.html">Jessica</a>
+                <a href="Mapache.html">Yamato</a>
+             </ul>
+            <a href="Servicios.html">Servicios</a>
+            <a href="Contactos.html">Contactos</a>
+        </ul>
     </nav>
+    <script src="Movimiento.js"></script>
+    <section>        
+        <article>
+            <link rel="stylesheet" href="Noticias.css">
+            <header>        
+                <h1>Titulo de ejemplo</h1>            
+            </header>
+            Si no me equivoco, este texto existe, pero es invisible :O            
+            <footer>
+                <p>comentario (0)</p>
+            </footer>
+        </article>
+    </section>
+    <aside>
+        <link rel="stylesheet" href="Margenes.css">
+        <blockquote>mensaje número uno</blockquote>
+    </aside>
 </body>
 </html>
